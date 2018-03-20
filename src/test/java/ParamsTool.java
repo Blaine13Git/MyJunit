@@ -7,9 +7,8 @@ import java.util.Collection;
 
 public class ParamsTool {
 
-    public static Collection getCaseData() throws Exception {
+    public static Collection<Object[]> getCaseData() throws Exception {
         ArrayList<Object[]> data = new ArrayList();
-
         JSONReader jsonReader = new JSONReader(new FileReader(System.getProperty("user.dir") + "\\caseData.json"));
         JSONObject object = (JSONObject) jsonReader.readObject();
         Object[] keys = object.keySet().toArray();
