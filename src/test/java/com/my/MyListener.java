@@ -15,7 +15,7 @@ public class MyListener extends RunListener {
     public static void main(String[] args) {
         JUnitCore jUnitCore = new JUnitCore();
         jUnitCore.addListener(new MyListener());
-        jUnitCore.run(EasyCase.class);
+        jUnitCore.run(TestCase_001.class);
     }
 
 }
