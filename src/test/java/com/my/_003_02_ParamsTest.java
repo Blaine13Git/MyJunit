@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized.Parameters;
 import java.util.Collection;
 
 @RunWith(value = Parameterized.class)
-public class TestParams {
+public class _003_02_ParamsTest {
 
     @Parameterized.Parameter
     public JSONObject jsonObject;
@@ -23,6 +23,5 @@ public class TestParams {
     public void case_01() {
         System.out.println("age:" + jsonObject.get("age"));
     }
-
 
 }
