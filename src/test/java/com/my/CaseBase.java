@@ -1,9 +1,9 @@
+package com.my;
+
 import org.junit.Rule;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
-
-import java.util.ArrayList;
 
 public class CaseBase {
 

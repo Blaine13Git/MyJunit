@@ -1,4 +1,5 @@
-import org.junit.Test;
+package com.my;
+
 import org.junit.runner.JUnitCore;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;

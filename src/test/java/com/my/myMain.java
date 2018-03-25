@@ -1,3 +1,5 @@
+package com.my;
+
 public class myMain {
 
     static void myPrint() {

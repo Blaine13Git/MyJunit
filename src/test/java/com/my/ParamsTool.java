@@ -1,3 +1,5 @@
+package com.my;
+
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONReader;
 
