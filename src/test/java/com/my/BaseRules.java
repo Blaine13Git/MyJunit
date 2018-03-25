@@ -3,9 +3,12 @@ package com.my;
 import org.junit.Rule;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
+import org.junit.rules.Timeout;
 import org.junit.runner.Description;
 
 public class BaseRules {
+    @Rule
+    public final TestRule globalTimeout = Timeout.seconds(10);
 
     @Rule
     public Retry retry = new Retry(3);
