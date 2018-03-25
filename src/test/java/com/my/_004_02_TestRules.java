@@ -1,10 +1,9 @@
 package com.my;
 
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
 
-public class _004_02_TestRules extends CaseBase {
+public class _004_02_TestRules extends BaseRules {
 
     @Test
     public void case_01() {

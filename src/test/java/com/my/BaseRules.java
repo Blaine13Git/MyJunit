@@ -5,7 +5,7 @@ import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 
-public class CaseBase {
+public class BaseRules {
 
     @Rule
     public Retry retry = new Retry(3);
